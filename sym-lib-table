@@ -1,6 +1,10 @@
 (sym_lib_table
   (lib (name mp2359dj-lf-z)(type Legacy)(uri ${KIPRJMOD}/kicad/mp2359dj-lf-z.lib)(options "")(descr ""))
   (lib (name usb_b_micro-connector)(type Legacy)(uri ${KIPRJMOD}/kicad/usb_b_micro-connector.lib)(options "")(descr ""))
-  (lib (name BMI088)(type Legacy)(uri ${KIPRJMOD}/kicad/BMI088.lib)(options "")(descr ""))
+  (lib (name BMI088)(type Legacy)(uri ${KIPRJMOD}/kicad/BMI088.lib)(options "")(descr "")(disabled))
   (lib (name ICM-20600)(type Legacy)(uri ${KIPRJMOD}/kicad/ICM-20600/ICM-20600.lib)(options "")(descr ""))
+  (lib (name daedalus-rescue)(type Legacy)(uri ${KIPRJMOD}/daedalus-rescue.lib)(options "")(descr ""))
+  (lib (name drv8323rh)(type Legacy)(uri ${KIPRJMOD}/daedalus_kicad_lib/drv8323rh.lib)(options "")(descr ""))
+  (lib (name ma700)(type Legacy)(uri ${KIPRJMOD}/daedalus_kicad_lib/ma700.lib)(options "")(descr ""))
+  (lib (name tph)(type Legacy)(uri ${KIPRJMOD}/daedalus_kicad_lib/tph.lib)(options "")(descr ""))
 )
