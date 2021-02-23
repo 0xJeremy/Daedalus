@@ -7,4 +7,6 @@
   (lib (name drv8323rh)(type Legacy)(uri ${KIPRJMOD}/daedalus_kicad_lib/drv8323rh.lib)(options "")(descr ""))
   (lib (name ma700)(type Legacy)(uri ${KIPRJMOD}/daedalus_kicad_lib/ma700.lib)(options "")(descr ""))
   (lib (name tph)(type Legacy)(uri ${KIPRJMOD}/daedalus_kicad_lib/tph.lib)(options "")(descr ""))
+  (lib (name xt30)(type Legacy)(uri ${KIPRJMOD}/daedalus_kicad_lib/xt30.lib)(options "")(descr ""))
+  (lib (name mcp2542)(type Legacy)(uri ${KIPRJMOD}/daedalus_kicad_lib/mcp2542.lib)(options "")(descr ""))
 )
