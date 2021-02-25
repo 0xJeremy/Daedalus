@@ -1216,45 +1216,6 @@ Wire Wire Line
 	4750 6750 4750 6925
 Text Notes 9800 575  0    50   ~ 0
 Power and Mounting Points
-$Comp
-L Connector_Generic:Conn_01x04 J3
-U 1 1 6033D355
-P 13500 6600
-F 0 "J3" H 13580 6592 50  0000 L CNN
-F 1 "I2C 1 Breakout" H 13580 6501 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 13500 6600 50  0001 C CNN
-F 3 "~" H 13500 6600 50  0001 C CNN
-	1    13500 6600
-	1    0    0    -1  
-$EndComp
-Text GLabel 13300 6700 0    50   Input ~ 0
-I2C1_SDA
-Text GLabel 13300 6800 0    50   Input ~ 0
-I2C1_SCL
-$Comp
-L power:GND #PWR061
-U 1 1 60342267
-P 13300 6500
-F 0 "#PWR061" H 13300 6250 50  0001 C CNN
-F 1 "GND" H 13305 6327 50  0000 C CNN
-F 2 "" H 13300 6500 50  0001 C CNN
-F 3 "" H 13300 6500 50  0001 C CNN
-	1    13300 6500
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR063
-U 1 1 60343CEB
-P 13100 6600
-F 0 "#PWR063" H 13100 6450 50  0001 C CNN
-F 1 "+3.3V" H 13115 6773 50  0000 C CNN
-F 2 "" H 13100 6600 50  0001 C CNN
-F 3 "" H 13100 6600 50  0001 C CNN
-	1    13100 6600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	13100 6600 13300 6600
 Text GLabel 2800 4175 2    50   Input ~ 0
 SPI1_SCK
 Text GLabel 2800 4275 2    50   Input ~ 0
@@ -2387,11 +2348,11 @@ Text GLabel 9100 3725 0    50   Input ~ 0
 SPI1_NSS
 Text GLabel 2800 6675 2    50   Input ~ 0
 SPI2_SCK
-Text GLabel 2800 3675 2    50   Input ~ 0
+Text GLabel 2800 3875 2    50   Input ~ 0
 PWM_A
 Text GLabel 2800 3775 2    50   Input ~ 0
 PWM_B
-Text GLabel 2800 3875 2    50   Input ~ 0
+Text GLabel 2800 3675 2    50   Input ~ 0
 PWM_C
 Text GLabel 2800 3975 2    50   Input ~ 0
 ENABLE
@@ -2596,7 +2557,7 @@ U 1 1 603BBA56
 P 13500 5675
 F 0 "J1" H 13580 5717 50  0000 L CNN
 F 1 "CAN Bus" H 13580 5626 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 13500 5675 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" H 13500 5675 50  0001 C CNN
 F 3 "~" H 13500 5675 50  0001 C CNN
 	1    13500 5675
 	1    0    0    -1  
@@ -2622,7 +2583,7 @@ U 1 1 603C0676
 P 15250 5675
 F 0 "J2" H 15330 5717 50  0000 L CNN
 F 1 "CAN Bus" H 15330 5626 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 15250 5675 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal" H 15250 5675 50  0001 C CNN
 F 3 "~" H 15250 5675 50  0001 C CNN
 	1    15250 5675
 	1    0    0    -1  
@@ -2738,45 +2699,6 @@ F 3 "" H 14150 1350 50  0001 C CNN
 $EndComp
 Text Notes 12475 1825 0    50   ~ 0
 Two XT30 plugs: power in and daisy chaining
-$Comp
-L Connector_Generic:Conn_01x04 J4
-U 1 1 603C1235
-P 15250 6600
-F 0 "J4" H 15330 6592 50  0000 L CNN
-F 1 "I2C 1 Breakout" H 15330 6501 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal" H 15250 6600 50  0001 C CNN
-F 3 "~" H 15250 6600 50  0001 C CNN
-	1    15250 6600
-	1    0    0    -1  
-$EndComp
-Text GLabel 15050 6700 0    50   Input ~ 0
-I2C1_SDA
-Text GLabel 15050 6800 0    50   Input ~ 0
-I2C1_SCL
-$Comp
-L power:GND #PWR062
-U 1 1 603C123D
-P 15050 6500
-F 0 "#PWR062" H 15050 6250 50  0001 C CNN
-F 1 "GND" H 15055 6327 50  0000 C CNN
-F 2 "" H 15050 6500 50  0001 C CNN
-F 3 "" H 15050 6500 50  0001 C CNN
-	1    15050 6500
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR064
-U 1 1 603C1243
-P 14850 6600
-F 0 "#PWR064" H 14850 6450 50  0001 C CNN
-F 1 "+3.3V" H 14865 6773 50  0000 C CNN
-F 2 "" H 14850 6600 50  0001 C CNN
-F 3 "" H 14850 6600 50  0001 C CNN
-	1    14850 6600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14850 6600 15050 6600
 Text Notes 13050 5450 0    50   ~ 0
 2x all busses: input and daisy chain
 $Comp
