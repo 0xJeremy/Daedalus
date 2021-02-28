@@ -1,11 +1,9 @@
 # Daedalus Motor Controller
 
-To be decided:
+![Logo](docs/logo/Daedalus_Triangle.png)
 
-- How many decoupling caps are needed leading to motor terminals? What value?
+### TODO:
+Well, for one, this section.
 
-- Specific N-channel MOSFETS to use...
-
-- CAN vs I2C? Both?
-
-- Do we need a diode from the DRV buck regulator before going to the voltage regulator?
+### Board Layout
+![Board Layout](docs/screenshots/Layout_Diagram.png)
