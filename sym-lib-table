@@ -9,4 +9,5 @@
   (lib (name tph)(type Legacy)(uri ${KIPRJMOD}/daedalus_kicad_lib/tph.lib)(options "")(descr ""))
   (lib (name xt30)(type Legacy)(uri ${KIPRJMOD}/daedalus_kicad_lib/xt30.lib)(options "")(descr ""))
   (lib (name mcp2542)(type Legacy)(uri ${KIPRJMOD}/daedalus_kicad_lib/mcp2542.lib)(options "")(descr ""))
+  (lib (name as5147)(type Legacy)(uri ${KIPRJMOD}/daedalus_kicad_lib/as5147.lib)(options "")(descr ""))
 )
