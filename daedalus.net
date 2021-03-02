@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/jeremy/Desktop/daedalus/daedalus.sch)
-    (date "Sun Feb 28 16:15:28 2021")
+    (date "Tue 02 Mar 2021 03:01:48 PM EST")
     (tool "Eeschema 5.1.6-c6e7f7d~87~ubuntu19.10.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -34,7 +34,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 60230EFE))
     (comp (ref C12)
-      (value 1uF)
+      (value "1uF, 10V")
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
       (fields
@@ -43,7 +43,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 60233233))
     (comp (ref C13)
-      (value 10nF)
+      (value "10nF, 10V")
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
       (fields
@@ -52,7 +52,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 602343A2))
     (comp (ref C20)
-      (value "2.2 uF")
+      (value "2.2uF, 10V")
       (footprint Capacitor_SMD:C_0603_1608Metric)
       (datasheet ~)
       (fields
@@ -61,7 +61,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 60245668))
     (comp (ref C19)
-      (value "2.2 uF")
+      (value "2.2uF, 10V")
       (footprint Capacitor_SMD:C_0603_1608Metric)
       (datasheet ~)
       (fields
@@ -70,7 +70,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 60247BB7))
     (comp (ref C10)
-      (value "100 nF")
+      (value 100nF)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
       (fields
@@ -79,7 +79,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 60240FE9))
     (comp (ref C9)
-      (value "100 nF")
+      (value 100nF)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
       (fields
@@ -88,7 +88,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 60240FE3))
     (comp (ref C8)
-      (value "100 nF")
+      (value 100nF)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
       (fields
@@ -97,7 +97,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 602406D0))
     (comp (ref C7)
-      (value "100 nF")
+      (value 100nF)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
       (fields
@@ -106,7 +106,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 602406CA))
     (comp (ref C6)
-      (value "100 nF")
+      (value 100nF)
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
       (fields
@@ -133,7 +133,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 602566D3))
     (comp (ref C25)
-      (value "12 pF")
+      (value "12pF, 10V")
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
       (fields
@@ -142,7 +142,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 6025870E))
     (comp (ref C26)
-      (value "12 pF")
+      (value "12pF, 10V")
       (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
       (fields
@@ -669,14 +669,14 @@
       (tstamp 60AF1E99))
     (comp (ref C23)
       (value "0.1uF, 10V")
-      (footprint Capacitor_SMD:C_0603_1608Metric)
+      (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
       (tstamp 60B0E614))
     (comp (ref C24)
       (value "0.1uF, 10V")
-      (footprint Capacitor_SMD:C_0603_1608Metric)
+      (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
@@ -730,7 +730,7 @@
       (tstamp 60403972))
     (comp (ref C11)
       (value "0.1uF, 10V")
-      (footprint Capacitor_SMD:C_0603_1608Metric)
+      (footprint Capacitor_SMD:C_0402_1005Metric)
       (datasheet ~)
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
