@@ -1076,9 +1076,9 @@
     (pad - thru_hole circle (at 2.5 0) (size 2.55 2.55) (drill 1.7) (layers *.Cu *.Mask)
       (net 31 BGND) (solder_mask_margin 0.1016))
     (model "${KIPRJMOD}/daedalus_kicad_lib/STEP/Amass_XT30PW-M_pcb solder.stp"
-      (offset (xyz 0 4.1275 -4.2545))
+      (offset (xyz 0 4.1275 2.54))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 180 180))
+      (rotate (xyz 0 0 180))
     )
   )
 
@@ -1129,9 +1129,9 @@
     (pad P$4 thru_hole circle (at -5.5 10) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask)
       (solder_mask_margin 0.1016))
     (model "${KIPRJMOD}/daedalus_kicad_lib/STEP/Amass_XT30PW-M_pcb solder.stp"
-      (offset (xyz 0 4.1275 -4.2545))
+      (offset (xyz 0 4.1275 2.54))
       (scale (xyz 1 1 1))
-      (rotate (xyz 180 0 0))
+      (rotate (xyz 180 180 0))
     )
   )
 
@@ -3698,6 +3698,11 @@
       (net 31 BGND) (solder_mask_margin 0.0508))
     (pad 14 smd rect (at -1.95 2.9178) (size 0.3048 0.9906) (layers B.Cu B.Paste B.Mask)
       (net 106 "Net-(11-Pad14)") (solder_mask_margin 0.0508))
+    (model ${KIPRJMOD}/daedalus_kicad_lib/STEP/TSSOP-14.stp
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 90))
+    )
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 603B9886)
