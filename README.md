@@ -1,6 +1,6 @@
 # Daedalus Motor Controller
 
-![Logo](docs/logo/Daedalus_Triangle.png)
+![Logo](docs/logo/Daedalus_Brackets_Board.png)
 
 ### TODO:
 Well, for one, this section.
