@@ -2,7 +2,7 @@
 
 #### Who we are, and what we're doing
 
-We are two mechanical engineering students at Tufts University. As part of a project with our university robotics club, we are working on making strong, fast, accurate, and reliable robot actuators. We were inspired by robots like Spot and Atlas by Boston Dynamics, the Unitree A1, and the MIT Mini-Cheetah. This work is broken into two parts: a custom actuator with a 6:1 planetary gearbox called called the OrbitActuator, and a custom-designed motor controller board: Daedalus.
+We are two mechanical engineering students at Tufts University. As part of a project with our university robotics club, we are working on making strong, fast, accurate, and reliable robot actuators. We were inspired by robots like Spot and Atlas by Boston Dynamics, the Unitree A1, and the MIT Mini-Cheetah. This work is broken into two parts: a custom actuator with a 6:1 planetary gearbox called called the OrbitDrive, and a custom-designed motor controller board: Daedalus.
 
 #### Project Description
 
