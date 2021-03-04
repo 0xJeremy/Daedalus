@@ -6,4 +6,4 @@
 Well, for one, this section.
 
 ### Board Layout
-![Board Layout](docs/screenshots/Layout_Diagram.png)
+![Board Layout](docs/Board_Layout.png)
