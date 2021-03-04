@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name Eric)(type KiCad)(uri /home/jeremy/kicad/Eric)(options "")(descr ""))
-  (lib (name daedalus_kicad_lib)(type KiCad)(uri ${KIPRJMOD}/daedalus_kicad_lib)(options "")(descr ""))
-)
